@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -26,6 +29,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\winter2020\django\CoursePlatform\apps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\winter2020\django\CoursePlatform" />
     </key>
@@ -65,11 +71,29 @@
       <option name="presentableId" value="Default" />
       <updated>1604005955171</updated>
       <workItem from="1604005957093" duration="35000" />
-      <workItem from="1604006002597" duration="267000" />
+      <workItem from="1604006002597" duration="959000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1197" height="190" key="GridCell.Tab.0.bottom" timestamp="1604006362331">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1197" height="190" key="GridCell.Tab.0.bottom/0.0.1463.783@0.0.1463.783" timestamp="1604006362331" />
+    <state width="1197" height="190" key="GridCell.Tab.0.center" timestamp="1604006362331">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1197" height="190" key="GridCell.Tab.0.center/0.0.1463.783@0.0.1463.783" timestamp="1604006362331" />
+    <state width="1197" height="190" key="GridCell.Tab.0.left" timestamp="1604006362330">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1197" height="190" key="GridCell.Tab.0.left/0.0.1463.783@0.0.1463.783" timestamp="1604006362330" />
+    <state width="1197" height="190" key="GridCell.Tab.0.right" timestamp="1604006362331">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1197" height="190" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1604006362331" />
   </component>
 </project>
