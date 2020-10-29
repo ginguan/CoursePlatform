@@ -1,3 +1,3 @@
 # CoursePlatform
-##⚡Features/apps 
+## ⚡Features/apps 
 - UserProfile 
