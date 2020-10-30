@@ -1,10 +1,20 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
+from datetime import datetime
+
 GENDER_CHOICES = (
     ("male", "men"),
     ("female", "women")
 )
+
+
+class BaseModel(models.Model):
+    add_time = models.DateField(default=datetime.now, verbose_name="add_time")
+
+    class Meta:
+        abstract = True
+        # then no tables will producte
 
 
 class UserProfile(AbstractUser):

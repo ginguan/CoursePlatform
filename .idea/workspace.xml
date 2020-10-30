@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604005955171</updated>
       <workItem from="1604005957093" duration="35000" />
-      <workItem from="1604006002597" duration="2697000" />
+      <workItem from="1604006002597" duration="7694000" />
     </task>
     <servers />
   </component>
@@ -95,5 +95,9 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state width="1197" height="190" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1604008216548" />
+    <state x="442" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1604009142133">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="442" y="104" width="672" height="678" key="search.everywhere.popup/0.0.1463.783@0.0.1463.783" timestamp="1604009142133" />
   </component>
 </project>
