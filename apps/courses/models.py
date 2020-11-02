@@ -1,9 +1,10 @@
 from django.db import models
-
+# from DjangoUeditor.models import UEditorField
 from datetime import datetime
 
 from apps.users.models import BaseModel
-
+from apps.organizations.models import Teacher
+from apps.organizations.models import CourseOrg
 # 1. important points
 # chapters layers : session -> chapters
 '''
@@ -16,6 +17,9 @@ from apps.users.models import BaseModel
 # 3. char type
 
 class Course(BaseModel):
+    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE, verbose_name="insturctpr")
+    course_org = models.ForeignKey(CourseOrg, null=True, blank=True, on_delete=models.CASCADE, verbose_name="course_org")
+
     name = models.CharField(verbose_name="course_name", max_length=100)
     description = models.CharField(verbose_name="course_desc", max_length=300)
     learn_times = models.IntegerField(default=0, verbose_name="learn_time(in mins)")
@@ -65,7 +69,8 @@ class Video(BaseModel):
 class CourseResource(BaseModel):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, verbose_name="course")
     name = models.CharField(max_length=100, verbose_name=u"course_resource_name")
-    file = models.FileField(upload_to="course/resource/%Y/%m",verbose_name="download_url",max_length=200)
+    file = models.FileField(upload_to="course/resource/%Y/%m", verbose_name="download_url", max_length=200)
+
     class Meta:
         verbose_name = "video_resource"
         verbose_name_plural = verbose_name
